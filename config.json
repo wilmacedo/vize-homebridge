@@ -1,0 +1,18 @@
+{
+  "bridge": {
+    "name": "Homebridge",
+    "username": "CB:22:3D:E2:CE:31",
+    "port": 51826,
+    "pin": "033-44-252"
+  },
+  "accessories": [
+    {
+      "accessory": "Http",
+      "name": "Luz de Teste",
+      "on_url": "http://192.168.1.38/gpio/1",
+      "off_url": "http://192.168.1.38/gpio/0",
+      "http_method": "GET"
+    }
+  ],
+  "platforms": []
+}
